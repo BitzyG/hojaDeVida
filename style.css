@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* *** Section Header *** */
+.header {
+    background-color: #303B4D;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+
+.header-texts {
+    width: 75%;
+    margin-left: 20px;
+}
+
+.header-title {
+    font-family: 'Ubuntu', sans-serif;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.header-subtitle {
+    font-family: 'Roboto', sans-serif;
+    color: #469198;
+    margin-bottom: 10px;
+}
+
+.header-description {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #fff;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.header-image {
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* *** Section Contact information *** */
+.contact-info {
+    width: 100%;
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    border-top: #469198 solid 4px;
+    background-color: #212A33;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.contact-info-colum {
+    width: 50%;
+}
+
+.contact-info-icon {
+    color: #ffffff;
+    margin: 10px 10px 10px 30px;
+}
+
+a:link,
+a:visited,
+a:active {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #469198;
+    text-decoration: underline;
+    font-size: 120%;
+    font-weight: bold;
+}
+
+/* *** Section Description information *** */
+.columns-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    /* height: 64vh; */
+}
+
+.columns-info-titles {
+    font-family: 'Roboto', sans-serif;
+    color: #469198;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+li {
+    list-style: none;
+}
+
+.columns-info-list {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px;
+    list-style-type: circle;
+}
+
+.columns-info-item {
+    margin: 10px 0px
+}
+
+
+.columns-info-item-titles {
+    font-size: 20px;
+}
+
+.columns-info-item-titles-description {
+    padding-left: 20px;
+}
+
+/* *** Section Footer *** */
+.footer {
+    background-color: #212A33;
+    display: block;
+    bottom: 0;
+}

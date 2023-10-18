@@ -1,88 +1,126 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!--Google Fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Foldit:wght@100;600&family=Roboto:wght@100;300&family=Ubuntu&display=swap" rel="stylesheet">
+        <!--Font awesome icons-->
+        <script src="https://kit.fontawesome.com/56f911fe07.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="style.css" />
         <title>Hoja de Vida</title>
     </head>
     <body>
-        <section>
-            <h1>Información General</h1>
-            <span>Nombre</span> <br>
-            <span>Apellido</span> <br>
-            <span>email</span> <br>
-            <span>teléfono</span> <br>
-            <span>Ubicación</span> <br>
-            <span>Github</span> <br>
-            <span>Linkedin</span>
+        <header class="header">
+            <div class="header-texts">
+                <h1 class="header-title">Itzel Andrea González Valecillos</h1>
+                <p class="header-subtitle"><strong>Front End-Developer // Arquitecto Civil</strong></p>
+                <p class="header-description">Soy ingeniosa, alegre y curiosa, busco complementar y expandir los conocimientos adquiridos, además como persona
+                    organizada y con una gran motivación, soy capaz de adaptarme a cualquier circunstancia y dar siempre lo mejor de mí
+                    en cualquier proyecto.</p>
+            </div>
+            <div class="header-image">
+                <img src="assets/profile.png" alt="profile">
+            </div>
+        </header>
+        
+        <section class="contact-info">
+            <div class="contact-info-column">
+                <p><i class="fa-solid fa-envelope-open-text contact-info-icon"></i>gv.itzelandrea@gmail.com</p>
+                <p><i class="fa-brands fa-github contact-info-icon"></i><a href="https://github.com/BitzyG" target="_blank">Github profile</a></p>
+            </div>
+            <div class="contact-info-column">
+                <p><i class="fa-solid fa-mobile-screen contact-info-icon"></i>+51 917 354 252</p>
+                <p><i class="fa-brands fa-linkedin contact-info-icon"></i><a href="https://linkedin.com/in/itzel-andrea-gonzalez-72308212a" target="_blank">Itzel Andrea González Valecillos</a></p>
+            </div>
+            <div class="contact-info-column">
+                <p><i class="fa-solid fa-map-location-dot contact-info-icon"></i>Lima, Perú</p>
+            </div>
         </section>
-        <section>
+        <section class="columns-info">
             <section>
-                <h2>Experiencia Laboral</h2>
-                <ul>
-                    <li>Ada school - Mentora</li>
-                    <li>NTT DATA Perú - Dev</li>
-                </ul>
+                <section>
+                    <h1 class="columns-info-titles">Experiencia Laboral</h1>
+                    <ul class="columns-info-list">
+                        <li class="columns-info-item">
+                            <h2 class="columns-info-item-titles"> <strong>NTT DATA - Perú</strong></h2><br>
+                            <p class="columns-info-item-titles-description"><strong>Actividades</strong> - Front end Developer</p><br>
+                            <p class="columns-info-item-titles-description"><strong>Proyecto:</strong> Mi Movistar Empresas</p>
+                        </li>
+                        <li class="columns-info-item">
+                            <h2 class="columns-info-item-titles"> <strong>Ada school- Colombia</strong> </h2><br>
+                            <p class="columns-info-item-titles-description"><strong>Actividades</strong> - Mentora</p><br>
+                            <p class="columns-info-item-titles-description"><strong>Mentora:</strong> Angular / HTML / CSS</p>
+                        </li>
+                    </ul>
+                </section>
+                <section>
+                    <h2 class="columns-info-titles">Formación</h2>
+                    <ul>
+                        <li>Laboratoria - Bootcamp</li>
+                    </ul>
+                </section>
+                <section>
+                    <h2 class="columns-info-titles">Habilidades Humanas</h2>
+                    <ul>
+                        <li>Trabajo en equipo</li>
+                        <li>Liderazgo</li>
+                        <li>Comunicación efectiva</li>
+                        <li>Planificación</li>
+                        <li>Resiliencia</li>
+                        <li>Resolución de conflictos</li>
+                        <li>Creatividad</li>
+                        <li>Proactividad</li>
+                        <li>Empatía</li>
+                    </ul>
+                </section>
             </section>
             <section>
-                <h2>Formación</h2>
-                <ul>
-                    <li>Laboratoria - Bootcamp</li>
-                </ul>
-            </section>
-            <section>
-                <h2>Habilidades Humanas</h2>
-                <ul>
-                    <li>Trabajo en equipo</li>
-                    <li>Liderazgo</li>
-                    <li>Comunicación efectiva</li>
-                    <li>Planificación</li>
-                    <li>Resiliencia</li>
-                    <li>Resolución de conflictos</li>
-                    <li>Creatividad</li>
-                    <li>Proactividad</li>
-                    <li>Empatía</li>
-                </ul>
+                <section>
+                    <h2 class="columns-info-titles">Cursos y Certificaciones</h2>
+                    <ul>
+                        <li>Scrum Product Owner - (07/2023) - <strong>Cloud Academy</strong></li>
+                        <li>Programa de Liderazgo - (06/2023) - <strong>Laboratoria</strong></li>
+                        <li>Scrum Master - (05/2023) - <strong>Cloud Academy</strong></li>
+                        <li>Agile Fundamentals - (05/2023) - <strong>Cloud Academy</strong></li>
+                        <li>Fundamentos de Liderazgo (Administración del Tiempo) - (05/2023) - <strong>Udemy</strong></li>
+                        <li>Fundamentos de Liderazgo (Comunicación Efectiva) - (04/2023) - <strong>Udemy</strong></li>
+                        <li>Scrum Foundation Professional Certificate (SFPC) - (10/2022) - <strong>Laboratoria</strong></li>
+                        <li>EF Level 12 - Upper Intermediate - CEFR Level B2 (04/2022) - <strong>Education First</strong></li>
+                        <li>Front - End developer (11/2021) - <strong>Laboratoria</strong></li>
+                    </ul>
+                </section>
+    
+                <section >
+                    <h2 class="columns-info-titles">Competencias técnicas</h2>
+                    <ul>
+                        <li>TypeScript</li>
+                        <li>Javascript</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Sass</li>
+                        <li>Figma</li>
+                        <li>Illustrator</li>
+                        <li>Node.js</li>
+                        <li>Angular</li>
+                        <li>Jira</li>
+                        <li>Bitbucket</li>
+                        <li>Postman</li>
+                        <li>Git</li>
+                    </ul>
+                </section>
             </section>
         </section>
-        <section>
-            <section>
-                <h2>Cursos y Certificaciones</h2>
-                <ul>
-                    <li>Scrum Product Owner - (07/2023) - <strong>Cloud Academy</strong></li>
-                    <li>Programa de Liderazgo - (06/2023) - <strong>Laboratoria</strong></li>
-                    <li>Scrum Master - (05/2023) - <strong>Cloud Academy</strong></li>
-                    <li>Agile Fundamentals - (05/2023) - <strong>Cloud Academy</strong></li>
-                    <li>Fundamentos de Liderazgo (Administración del Tiempo) - (05/2023) - <strong>Udemy</strong></li>
-                    <li>Fundamentos de Liderazgo (Comunicación Efectiva) - (04/2023) - <strong>Udemy</strong></li>
-                    <li>Scrum Foundation Professional Certificate (SFPC) - (10/2022) - <strong>Laboratoria</strong></li>
-                    <li>EF Level 12 - Upper Intermediate - CEFR Level B2 (04/2022) - <strong>Education First</strong></li>
-                    <li>Front - End developer (11/2021) - <strong>Laboratoria</strong></li>
-                </ul>
-            </section>
-
-            <section>
-                <h2>Competencias técnicas</h2>
-                <ul>
-                    <li>TypeScript</li>
-                    <li>Javascript</li>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>Sass</li>
-                    <li>Figma</li>
-                    <li>Illustrator</li>
-                    <li>Node.js</li>
-                    <li>Angular</li>
-                    <li>Jira</li>
-                    <li>Bitbucket</li>
-                    <li>Postman</li>
-                    <li>Git</li>
-                </ul>
-            </section>
-        </section>
-        <section>
+        <section class="footer">
             <h3>contactame</h3>
             <input type="email" name="email" id="email">
             <input type="textarea">
             <button>Contactar</button>
         </section>
+   
+    <script src="scripts.js"></script>
     </body>
 </html>
